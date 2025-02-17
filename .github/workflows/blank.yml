@@ -32,9 +32,7 @@ jobs:
       run: |
         npm install
         npm run build
-        npm install -g serve
-        serve -s build -l 3000 &
-        sleep 5
+        npm start
     - name: 部署
       uses: JamesIves/github-pages-deploy-action@v4
       with:
