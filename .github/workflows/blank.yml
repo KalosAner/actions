@@ -1,15 +1,7 @@
 name: myci
 
 # on 代表触发事件
-on:
-# 当 push 时触发工作流
-  push:
-# 当特定 branches 发生 push 时出发，这里就是 master 分支
-    branches:
-    - main
-# 当特定路径发生 push 时出发，这里是 src 文件夹
-    paths:
-    - src/*
+on: push
 
 # 工作流的任务
 jobs:
