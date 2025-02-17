@@ -7,6 +7,7 @@ on:
 # 当特定 branches 发生 push 时出发，这里就是 master 分支
     branches:
     - master
+    - main
 # 当特定路径发生 push 时出发，这里是 src 文件夹
     paths:
     - src/*
