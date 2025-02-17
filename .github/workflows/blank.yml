@@ -15,9 +15,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 3
 # 多策略用法，使用的不多
-    strategy:
-      matrix:
-        node-version: [14.x, 16.x, 18.x]
+#    strategy:
+#      matrix:
+#        node-version: [14.x, 16.x, 18.x]
 # 工作流执行的具体命令
     steps:
 # uses 可以接多种类型，最常用的就是接另一个代码仓库，这里就是一个代码仓库，它的流程就是下载我仓库的代码
@@ -25,7 +25,7 @@ jobs:
       uses: actions/checkout@v4
     - uses: actions/setup-node@v4
       with:
-        node-version: ${{ matrix.node-version }}
+        node-version: '16.x'
 # 这里的 name 是为 run 起一个名字，会在 GitHub 上显示，也可以不写
     - name: 安装依赖
 # run 后边加 | 可以支持写多行脚本
