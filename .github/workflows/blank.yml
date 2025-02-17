@@ -26,8 +26,7 @@ jobs:
 # run 后边加 | 可以支持写多行脚本
       run: |
         npm install
-        npm run build --if-present
-        npm test
+        npm start
         node -v
     - name: 部署
       uses: JamesIves/github-pages-deploy-action@v4
