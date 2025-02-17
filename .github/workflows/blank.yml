@@ -8,7 +8,7 @@ jobs:
 # build 是自定义的名字，可以随意命名
   build:
 # 工作流执行的系统环境
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 # 多策略用法，使用的不多
     strategy:
       matrix:
