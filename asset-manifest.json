@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/calculator/static/css/main.6fdcdd19.chunk.css",
-    "main.js": "/calculator/static/js/main.714e9fd8.chunk.js",
-    "main.js.map": "/calculator/static/js/main.714e9fd8.chunk.js.map",
-    "runtime~main.js": "/calculator/static/js/runtime~main.2539f434.js",
-    "runtime~main.js.map": "/calculator/static/js/runtime~main.2539f434.js.map",
-    "static/css/2.f87fbcaa.chunk.css": "/calculator/static/css/2.f87fbcaa.chunk.css",
-    "static/js/2.9067ee69.chunk.js": "/calculator/static/js/2.9067ee69.chunk.js",
-    "static/js/2.9067ee69.chunk.js.map": "/calculator/static/js/2.9067ee69.chunk.js.map",
-    "index.html": "/calculator/index.html",
-    "precache-manifest.902a48c56797c66b1e2a017571b9419d.js": "/calculator/precache-manifest.902a48c56797c66b1e2a017571b9419d.js",
-    "service-worker.js": "/calculator/service-worker.js",
-    "static/css/2.f87fbcaa.chunk.css.map": "/calculator/static/css/2.f87fbcaa.chunk.css.map",
-    "static/css/main.6fdcdd19.chunk.css.map": "/calculator/static/css/main.6fdcdd19.chunk.css.map"
+    "main.css": "/actions/static/css/main.6fdcdd19.chunk.css",
+    "main.js": "/actions/static/js/main.714e9fd8.chunk.js",
+    "main.js.map": "/actions/static/js/main.714e9fd8.chunk.js.map",
+    "runtime~main.js": "/actions/static/js/runtime~main.1a4b005b.js",
+    "runtime~main.js.map": "/actions/static/js/runtime~main.1a4b005b.js.map",
+    "static/css/2.f87fbcaa.chunk.css": "/actions/static/css/2.f87fbcaa.chunk.css",
+    "static/js/2.9067ee69.chunk.js": "/actions/static/js/2.9067ee69.chunk.js",
+    "static/js/2.9067ee69.chunk.js.map": "/actions/static/js/2.9067ee69.chunk.js.map",
+    "index.html": "/actions/index.html",
+    "precache-manifest.ade2ddbcac731307f125f6970c3cf9d5.js": "/actions/precache-manifest.ade2ddbcac731307f125f6970c3cf9d5.js",
+    "service-worker.js": "/actions/service-worker.js",
+    "static/css/2.f87fbcaa.chunk.css.map": "/actions/static/css/2.f87fbcaa.chunk.css.map",
+    "static/css/main.6fdcdd19.chunk.css.map": "/actions/static/css/main.6fdcdd19.chunk.css.map"
   }
 }
