@@ -9,6 +9,7 @@ jobs:
   build:
 # 工作流执行的系统环境
     runs-on: ubuntu-latest
+    timeout-minutes: 3
 # 多策略用法，使用的不多
     strategy:
       matrix:
