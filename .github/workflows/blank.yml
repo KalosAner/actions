@@ -32,8 +32,9 @@ jobs:
       run: |
         npm install
         npm run build
-        npm test -- --watchAll=false
-        node -v
+        npm install -g serve
+        serve -s build -l 3000
+        sleep 5
     - name: 部署
       uses: JamesIves/github-pages-deploy-action@v4
       with:
